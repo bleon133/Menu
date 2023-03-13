@@ -37,11 +37,11 @@ header>div{
 header>div div{
     position: absolute;
     left: 10px;
-    /* top: 5px; */
+    top: 5px;
     background-image: url("./pngwing.com.png");
     background-size: cover;
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
 }
 
 nav{
@@ -86,7 +86,7 @@ nav{
 } */
 
 .submenu li:hover{
-    background-color: red;
+    background-color: rgba(0, 255, 213, 0.705);
 }
 
 /*MAIN*/
@@ -95,6 +95,15 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+h2{
+   border: rgba(240, 248, 255, 0.514) solid 5px;
+}
+
+h2:hover{
+    border: rgba(240, 248, 255, 0.514) solid 5px;
+    background-color:  rgba(0, 255, 213, 0.705);
 }
 
 .icon {
@@ -108,4 +117,5 @@ main{
 
 a{
     text-decoration: none;
-}
+    color: black;
+}   

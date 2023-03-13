@@ -38,11 +38,11 @@ header>div{
 header>div div{
     position: absolute;
     left: 10px;
-    /* top: 5px; */
+    top: 5px;
     background-image: url("./pngwing.com.png");
     background-size: cover;
-    width: 30px;
-    height: 30px;
+    width: 70px;
+    height: 70px;
 }
 
 nav{
@@ -75,7 +75,7 @@ nav{
 }
 
 .submenu li:hover{
-    background-color: red;
+    background-color: rgba(0, 255, 213, 0.705);
 }
 
 .icon {
@@ -129,8 +129,9 @@ form{
     display: flex;
     flex-direction: column;
     margin: 0 20%;
-    border: solid 1px black;
+    border: solid 2px black;
     padding: 2%;
+    background-color: rgba(240, 248, 255, 0.726);
 }
 
 form div{
@@ -145,3 +146,7 @@ hr {
     background-color: rgba(0, 0, 0, 0.445);
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}   
