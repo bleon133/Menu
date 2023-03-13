@@ -1,0 +1,111 @@
+/*RESET*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*CONFIGURACIÓN BODY Y HTML*/
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+body{
+    background-image: url('https://images.pexels.com/photos/374598/pexels-photo-374598.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/*HEADER Y NAV*/
+header{
+    display: flex;
+    flex-direction: column;
+    background-color: aliceblue;
+    /* height: 25%; */
+    position: absolute;
+    width: 100%;
+}
+
+header>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+header>div div{
+    position: absolute;
+    left: 10px;
+    /* top: 5px; */
+    background-image: url("./pngwing.com.png");
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+}
+
+nav{
+    display: flex;
+    justify-content: center;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    justify-content: flex-start; /* Opción libre*/
+    gap: 150px;
+    padding-left: 50px;
+    position: relative;
+}
+
+.menu>li{
+    padding: 10px;
+}
+
+.menu>li:hover{
+    /* background-color: red; */
+}
+
+/* .menu:hover{
+    background-color: red;
+} */
+
+.submenu{
+    position: absolute;
+    visibility: hidden;
+    list-style: none;
+    top: 30px;
+}
+
+#mostrar:hover .submenu{
+    visibility: visible;
+}
+
+/* .menu li:nth-child(3):hover .submenu{
+    visibility: visible;
+} */
+
+.submenu li:hover{
+    background-color: red;
+}
+
+/*MAIN*/
+main{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    stroke-width: 0;
+    stroke: currentColor; /*Por fuera del elemento*/
+    fill: currentColor; /*Relleno del elemento*/
+}
+
+a{
+    text-decoration: none;
+}

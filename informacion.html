@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI PRIMER MENÚ</title>
+    <link rel="stylesheet" href="./informacion.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"> -->
+</head>
+<body>
+    <header>
+        <div>
+            <div>
+                <!-- <img src="./pngwing.com.png" alt="" height="30px" width="30px"> -->
+            </div>
+            <h1>NOMBRE</h1>
+        </div>
+        <nav>
+            <ul class="menu">
+                <li>
+                    <svg class="icon icon-home"><use xlink:href="#icon-home">
+                        <symbol id="icon-home" viewBox="0 0 32 32">
+                            <path d="M32 18.451l-16-12.42-16 12.42v-5.064l16-12.42 16 12.42zM28 18v12h-8v-8h-8v8h-8v-12l12-9z"></path>
+                        </symbol>
+                    </use></svg>
+                    <!-- <i class="fa-solid fa-house"></i> -->
+                </li>
+                <li>Nosotros</li>
+                <li id="mostrar">Servicios
+                    <ul class="submenu">
+                        <li>Servicios1</li>
+                        <li>Servicios2</li>
+                    </ul>
+                </li>
+                <li>Contactanos</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2>Nosotros</h2>
+        <div class="nosotros">
+            <div></div>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure possimus ea consequuntur eum minima officia odio magnam provident eveniet, itaque molestias quae incidunt tenetur excepturi porro! Accusamus corrupti ut aut?</p>
+        </div>
+        <hr>
+        <h2>Servicios</h2>
+        <div class="servicios">
+            <div class="servicioNum">
+                <h3>Servicios 1</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum quam tenetur eos accusantium iusto quia repellendus eum officiis, quo ab soluta rerum, cupiditate dolores, praesentium quibusdam tempore aliquam neque!</p>
+            </div>
+            <div class="servicioNum">
+                <h3>Servicios 2</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga laborum quam tenetur eos accusantium iusto quia repellendus eum officiis, quo ab soluta rerum, cupiditate dolores, praesentium quibusdam tempore aliquam neque!</p>
+            </div>
+        </div>
+        <hr>
+        <div class="bloques">
+            <h2>Contacto</h2>
+            <form action="">
+                <div>
+                    <label for="name">Nombre:</label>
+                    <input type="text" id="name" class="inputSize">
+                </div>
+                <div>
+                    <label for="email">Email: </label>
+                    <input type="email" id="email" class="inputSize">
+                </div>
+                <div>
+                    <label for="tel">Télefono:</label>
+                    <input type="tel" id="tel" class="inputSize">
+                </div>
+                <div>
+                    <label for="asunto">Asunto:</label>
+                    <textarea name="asunto" id="asunto" cols="30" rows="10" class="inputSize"></textarea> 
+                </div>
+                <br>
+                <input type="button" value="Enviar" class="inputBoton">
+            </form>
+        </div>  
+        <hr>
+    </main>
+</body>
+</html>
